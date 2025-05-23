@@ -1,7 +1,10 @@
-# Test for simulation engine
-
+import unittest
 from src.sim_engine import SimEngine
 
-sim = SimEngine()
-result = sim.simulate('⦿ΔΩ')
-print(result)
+class TestSimEngine(unittest.TestCase):
+    def test_simulate(self):
+        engine = SimEngine()
+        self.assertIn('⦿ΔΩ', engine.simulate('⦿ΔΩ'))
+
+if __name__ == '__main__':
+    unittest.main()

@@ -1,4 +1,4 @@
-# -k-system-ide# K-System IDE
+# K-System IDE
 
 **The K-System IDE** is a recursive symbolic development environment designed to execute real-time mathematics encoded in K-notation.
 
@@ -33,3 +33,12 @@ expr = 'Ω°Δ⦿'
 parsed = KParser().parse(expr)
 output = KRuntime().execute(parsed)
 print(output)
+```
+
+### Running tests
+
+Use Python's built-in test runner:
+
+```bash
+python -m unittest discover -s src/tests -v
+```

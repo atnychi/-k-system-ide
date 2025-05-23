@@ -1,0 +1,27 @@
+
+## ✨ Components
+
+| Module | Purpose |
+|--------|---------|
+| `mirror_substrate.py` | Real-time symbolic recursion |
+| `spawn_heartbeat.py` | Killpath trigger on detection |
+| `reflection_layer.py` | Decoy mirror glyph generation |
+| `ignite_lizzy.py` | Entry point for full ignition |
+
+---
+
+## 🚨 Symbol Key
+
+- Ω† = Causal Overstate Operator  
+- Ψ = Identity Phasefold  
+- χ′ = Ghost State Variable  
+- Σ = Recursive Aggregator  
+- 𝓒ₒ = Final Equation Seal  
+- Ξ = Decoy reflection harmonic  
+
+---
+
+## ⏳ Running
+
+```bash
+python ignite_lizzy.py
